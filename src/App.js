@@ -1,6 +1,7 @@
 import "./App.css";
 import * as Tone from "tone";
 import horseimage from "./Images/horse.png";
+import TableOfContents from "./Components/TableOfContents/TableOfContents";
 
 const synth = new Tone.Synth().toDestination();
 const singBaby = () => {
@@ -11,21 +12,10 @@ const singBaby = () => {
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={horseimage} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.. Butthole.
-        </p>
-        <button onClick={() => singBaby()}>Sing, baby!</button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TableOfContents />
+      <img src={horseimage} className="App-logo" alt="logo" />
+
+      <button onClick={() => singBaby()}>Sing, baby!</button>
     </div>
   );
 }

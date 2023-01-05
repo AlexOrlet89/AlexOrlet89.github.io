@@ -1,5 +1,10 @@
 import React from "react";
+import "./TableOfContents.css";
 
 export default function TableOfContents() {
-  return <div>TableOfContents</div>;
+  return (
+    <div>
+      <nav>TableOfContents</nav>
+    </div>
+  );
 }
