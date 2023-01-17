@@ -2,19 +2,23 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .TableOfContents {
   background-color: aquamarine;
-  /* width: 20%; */
+  width: 200px;
+  text-align: center;
 }
 
 .Header {
+  text-align: center;
   width: 100%;
   background-color: rgb(252, 122, 122);
 }
 
 .Home {
-  /* width: 70%; */
+  margin: 0 20px 0 20px;
+  width: 70%;
   background-color: blanchedalmond;
 }
