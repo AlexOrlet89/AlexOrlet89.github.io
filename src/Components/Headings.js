@@ -6,7 +6,17 @@ export default function Headings({ headings }) {
     <div>
       {headings.map((heading) => (
         <li key={heading.id}>
-          <a href={`#${heading.id}`}>{heading.title}</a>
+          <a
+            href={`#${heading.id}`}
+            onClick={(e) => {
+              e.preventDefault();
+              document.querySelector(`#${heading.id}`).scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+          >
+            {heading.title}
+          </a>
         </li>
       ))}
     </div>
