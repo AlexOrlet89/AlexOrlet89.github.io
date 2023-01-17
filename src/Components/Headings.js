@@ -5,7 +5,9 @@ export default function Headings({ headings }) {
   return (
     <div>
       {headings.map((heading) => (
-        <p key={heading.title}>{heading.title}</p>
+        <li key={heading.id}>
+          <a href={`#${heading.id}`}>{heading.title}</a>
+        </li>
       ))}
     </div>
   );
