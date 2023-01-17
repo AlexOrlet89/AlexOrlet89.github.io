@@ -5,8 +5,8 @@ import Home from "./views/Home";
 function App() {
   return (
     <div className="App">
+      <h1 className="Header">HEAVEN SKATE Header</h1>
       <TableOfContents />
-      <h1>HEAVEN SKATE Header</h1>
       <Home />
     </div>
   );

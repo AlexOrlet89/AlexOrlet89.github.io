@@ -7,7 +7,7 @@ export default function TableOfContents() {
   const { headings } = useHeadingsData();
   console.log(headings);
   return (
-    <div>
+    <div className="TableOfContents share">
       <nav>TableOfContents</nav>
       <Headings headings={headings} />
     </div>
