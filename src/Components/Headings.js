@@ -1,12 +1,15 @@
 import React from "react";
 
-export default function Headings({ headings }) {
-  console.log(headings);
+export default function Headings({ headings, activeId }) {
+  // console.log(activeId);
   return (
     <div className="toc">
       <nav>TableOfContents</nav>
       {headings.map((heading) => (
-        <li key={heading.id}>
+        <li
+          key={heading.id}
+          className={heading.id === activeId ? "active" : ""}
+        >
           <a
             href={`#${heading.id}`}
             onClick={(e) => {

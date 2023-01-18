@@ -25,6 +25,10 @@
   background-color: rgb(252, 122, 122);
 }
 
+li.active {
+  color: white;
+}
+
 .Home {
   overflow: hidden;
 

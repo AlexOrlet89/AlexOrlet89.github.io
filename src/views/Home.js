@@ -98,7 +98,7 @@ export default function Home() {
         ullamcorper. Euismod lacinia at quis risus sed vulputate odio. Eu augue
         ut lectus arcu bibendum at varius vel pharetra.
       </p>
-      <h2 id="third-header">Third Header</h2>
+      <h2 id="fourth-header">fourth Header</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim
@@ -113,7 +113,7 @@ export default function Home() {
         ullamcorper. Euismod lacinia at quis risus sed vulputate odio. Eu augue
         ut lectus arcu bibendum at varius vel pharetra.
       </p>
-      <h2 id="fourth-header">fourth Header</h2>
+      <h2 id="fifth-header">fifth Header</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim
