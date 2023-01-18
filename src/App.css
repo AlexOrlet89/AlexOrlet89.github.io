@@ -6,19 +6,29 @@
 }
 
 .TableOfContents {
+  padding-top: 60px;
   background-color: aquamarine;
   width: 200px;
   text-align: center;
 }
 
+.toc {
+  position: sticky;
+  top: 60px;
+}
+
 .Header {
+  top: -24px;
+  position: fixed;
   text-align: center;
   width: 100%;
   background-color: rgb(252, 122, 122);
 }
 
 .Home {
-  margin: 0 20px 0 20px;
+  overflow: hidden;
+
+  margin: 50px 20px 0 20px;
   padding-left: 20px;
   padding-right: 20px;
   width: 70%;

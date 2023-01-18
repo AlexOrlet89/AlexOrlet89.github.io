@@ -8,7 +8,6 @@ export default function TableOfContents() {
   console.log(headings);
   return (
     <div className="TableOfContents share">
-      <nav>TableOfContents</nav>
       <Headings headings={headings} />
     </div>
   );

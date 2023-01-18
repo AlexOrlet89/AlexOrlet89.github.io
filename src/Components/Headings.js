@@ -3,7 +3,8 @@ import React from "react";
 export default function Headings({ headings }) {
   console.log(headings);
   return (
-    <div>
+    <div className="toc">
+      <nav>TableOfContents</nav>
       {headings.map((heading) => (
         <li key={heading.id}>
           <a
