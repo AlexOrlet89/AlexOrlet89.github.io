@@ -38,3 +38,8 @@ li.active {
   width: 70%;
   background-color: blanchedalmond;
 }
+
+h2 {
+  text-align: center;
+  scroll-margin-top: 50px;
+}
