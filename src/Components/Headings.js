@@ -7,6 +7,7 @@ export default function Headings({ headings, activeId }) {
       <nav>TableOfContents</nav>
       {headings.map((heading) => (
         <li
+          style={{ backgroundImage: `url(https://imgur.com/fgF2jg1)` }}
           key={heading.id}
           className={heading.id === activeId ? "active" : ""}
         >

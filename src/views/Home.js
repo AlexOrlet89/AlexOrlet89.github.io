@@ -3,7 +3,13 @@ import useHeadingsData from "../hooks/useHeadingsData";
 
 export default function Home() {
   return (
-    <div className="Home share">
+    <div
+      className="Home share"
+      style={{
+        backgroundImage: `url(https://imgur.com/fgF2jg1.png)`,
+        contentType: "text/html",
+      }}
+    >
       <h2 id="initial-header">Initial header</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
