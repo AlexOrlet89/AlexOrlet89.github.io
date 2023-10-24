@@ -18,11 +18,11 @@
 }
 
 .Header {
-  top: -24px;
-  position: fixed;
+  /* top: -24px; */
+  position: relative;
   text-align: center;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
 }
 
 li.active {
