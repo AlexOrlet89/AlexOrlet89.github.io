@@ -22,7 +22,7 @@
   position: fixed;
   text-align: center;
   width: 100%;
-  background-color: rgb(252, 122, 122);
+  background-color: rgb(255, 255, 255);
 }
 
 li.active {
@@ -36,7 +36,7 @@ li.active {
   padding-left: 20px;
   padding-right: 20px;
   width: 70%;
-  background-color: blanchedalmond;
+  background-color: rgb(255, 255, 255);
 }
 
 h2 {

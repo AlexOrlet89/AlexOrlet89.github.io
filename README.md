@@ -1,3 +1,11 @@
+#DEVLOG (it's here because it's a good spot to keep it!)
+
+We are going to use Wye Oak's page as inspiration, because it's a simple site and a great band.
+
+Step One, change header to single center-spaced logo(horse place taker, although we should make something, or have clae send over a png) that links back to home page. It's small in size, so it won't have to resize when screen size changes.
+
+It also has a good amount of padding around it to make it float by itself at the top of the page.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

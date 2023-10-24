@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="Header">HEAVEN SKATE Header</h1>
-      <TableOfContents />
+      {/* <TableOfContents /> */}
       <Home />
     </div>
   );
